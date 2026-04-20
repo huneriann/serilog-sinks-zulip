@@ -8,7 +8,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     
     <AssemblyName>Serilog.Sinks.Zulip</AssemblyName>
     <RootNamespace>Serilog.Sinks.Zulip</RootNamespace>
@@ -19,7 +19,7 @@
     <Description>Serilog.Sinks.Zulip is a batched sink that writes Serilog log events to Zulip channels (streams) via the Zulip REST API.</Description>
     <PackageTags>c#;csharp;serilog;zulip;sink;logging;log;batching</PackageTags>
 
-    <PackageProjectUrl>https://github.com/huneriann/Serilog.Sinks.Zulip/</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/huneriann/serilog-sinks-zulip/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/huneriann/serilog-sinks-zulip</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
