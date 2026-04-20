@@ -8,7 +8,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     
     <AssemblyName>Serilog.Sinks.Zulip</AssemblyName>
     <RootNamespace>Serilog.Sinks.Zulip</RootNamespace>
@@ -38,6 +38,10 @@
 
   <ItemGroup>
     <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
