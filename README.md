@@ -75,7 +75,7 @@ This library fully supports `Serilog.Settings.Configuration`. Using `appsettings
 }
 ```
 
-## Approach 2: C# Fluent Configuration
+### Approach 2: C# Fluent Configuration
 If you prefer to configure Serilog via code, you can pass options directly during startup.
 
 ```C#
