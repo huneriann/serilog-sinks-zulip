@@ -8,7 +8,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     
     <AssemblyName>Serilog.Sinks.Zulip</AssemblyName>
     <RootNamespace>Serilog.Sinks.Zulip</RootNamespace>
@@ -35,6 +35,12 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png">
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
