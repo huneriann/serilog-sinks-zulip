@@ -1,9 +1,50 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <TargetFrameworks>netstandard2.1;</TargetFrameworks>
+    <LangVersion>12.0</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+
+    <Version>1.0.0</Version>
+    
+    <AssemblyName>Serilog.Sinks.Zulip</AssemblyName>
+    <RootNamespace>Serilog.Sinks.Zulip</RootNamespace>
+    <PackageId>Serilog.Sinks.Zulip</PackageId>
+    <Authors>Ilkin Hashimzada (huneriann) and the Serilog contributors</Authors>
+    <Company>Ilkin Hashimzada and the Serilog contributors</Company>
+    <Copyright>Copyright © Ilkin Hashimzada and the Serilog contributors</Copyright>
+    <Description>Serilog.Sinks.Zulip is a batched sink that writes Serilog log events to Zulip channels (streams) via the Zulip REST API.</Description>
+    <PackageTags>c#;csharp;serilog;zulip;sink;logging;log;batching</PackageTags>
+
+    <PackageProjectUrl>https://github.com/huneriann/Serilog.Sinks.Zulip/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/huneriann/serilog-sinks-zulip</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryBranch>master</RepositoryBranch>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+    <PackageReference Include="Serilog" Version="4.3.1" />
+    <PackageReference Include="Serilog.Sinks.PeriodicBatching" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Serilog.Sinks.Zulip.UnitTest"/>
+    <InternalsVisibleTo Include="DynamicProxyGenAssembly2"/>
+  </ItemGroup>
 
 </Project>

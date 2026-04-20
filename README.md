@@ -5,3 +5,5 @@ A high-performance, batched asynchronous Serilog sink for the Zulip messaging pl
 ## Overview
 
 This library provides a production-grade integration for routing structured logs into Zulip channels. It is designed to be non-blocking and network-efficient, ensuring that logging telemetry does not impact application latency.
+
+For more information on the underlying REST API, please refer to the official [Zulip API Documentation](https://zulip.com/api/).

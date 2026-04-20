@@ -1,0 +1,21 @@
+﻿@HostAddress = http://localhost:5203
+
+### Trigger Trace Log
+GET {{HostAddress}}/log-debug
+Accept: application/json
+
+### Trigger Information Log
+GET {{HostAddress}}/log-info
+Accept: application/json
+
+### Trigger Warning Log
+GET {{HostAddress}}/log-warning
+Accept: application/json
+
+### Trigger Error Log
+GET {{HostAddress}}/log-error
+Accept: application/json
+
+### Trigger Fatal Log
+GET {{HostAddress}}/log-fatal
+Accept: application/json
