@@ -2,9 +2,11 @@ name: Build, Test & Publish
 on:
   push:
     tags: [ 'v*' ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
-
+  workflow_dispatch:
+  
 jobs:
   ci-cd:
     name: Build, Test & Publish
