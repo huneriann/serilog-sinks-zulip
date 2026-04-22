@@ -1,0 +1,15 @@
+global using FluentAssertions;
+global using Moq;
+global using Moq.Protected;
+global using Serilog.Configuration;
+global using Serilog.Events;
+global using Serilog.Formatting.Display;
+global using Serilog.Parsing;
+global using Serilog.Sinks.PeriodicBatching;
+global using System;
+global using System.Collections.Generic;
+global using System.Net;
+global using System.Net.Http;
+global using System.Threading;
+global using System.Threading.Tasks;
+global using Xunit;
