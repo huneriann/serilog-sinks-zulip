@@ -6,7 +6,7 @@
 [![Nuget Downloads](https://img.shields.io/nuget/dt/serilog.sinks.zulip)](https://www.nuget.org/packages/serilog.sinks.zulip)
 [![publish to nuget](https://github.com/huneriann/serilog-sinks-zulip/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/huneriann/serilog-sinks-zulip/actions/workflows/ci-cd.yml)
 
-A high-performance, batched asynchronous Serilog sink for the Zulip messaging platform.
+A high-performance, batched asynchronous Serilog sink for the [Zulip](https://zulip.com/) messaging platform.
 
 ## Overview
 
